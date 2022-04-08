@@ -42,12 +42,16 @@ class User extends Authenticatable implements MustVerifyEmail
         'email_verified_at' => 'datetime',
     ];
 
-    public function sendPasswordResetNotification($token)
-    {
-        $this->notify(new RedefinirSenhaNotification($token, $this->email(), $this->name()));
-    }
+    // public function sendPasswordResetNotification($token)
+    // {
+    //     $this->notify(new RedefinirSenhaNotification($token, $this->email(), $this->name()));
+    // }
 
-    public function sendEmailVerificationNotification($token) {
-        $this->notify(new VerificarEmailNotification($token));
+    // public function sendEmailVerificationNotification($token) {
+    //     $this->notify(new VerificarEmailNotification($token));
+    // }
+
+    public function tarefas () {
+        return $this->hasMany('App\Models\Tarefa');
     }
 }
