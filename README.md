@@ -1,6 +1,6 @@
 # App-controle-tarefas
 
-Apliction where you can manage your agenda, create a to-do list and schedule appointments. Inspired on [Jorge Sant Ana](https://jorgesantana.net.br/) project, developed to pratice authentication and downlowad files with Laravel.<br>
+Apliction where you can manage your agenda, create a to-do list and schedule appointments. Inspired on [Jorge Sant Ana](https://jorgesantana.net.br/) project, developed to pratice authentication and file downlowad with Laravel.<br>
 
 ## Technologies used <br>
 Click to access the documentation: [Laravel](https://laravel.com/) and [Bootstrap](https://getbootstrap.com/)
